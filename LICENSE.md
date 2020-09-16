@@ -1,6 +1,7 @@
 # The MIT License (MIT)
 
 Copyright © `2020` David Beck
+Copyright © `2020` Luke Ramsden
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation

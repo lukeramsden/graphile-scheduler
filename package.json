@@ -1,6 +1,9 @@
 {
-  "name": "graphile-scheduler",
-  "version": "0.5.0",
+  "name": "@lukeramsden/graphile-scheduler",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.8.0",
   "description": "Job scheduler for PostgreSQL",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,19 +28,22 @@
     "jobs",
     "tasks"
   ],
-  "author": "David Beck <code@davidbeck.co>",
+  "contributors": [
+    "David Beck <code@davidbeck.co>",
+    "Luke Ramsden <lukeramsden@protonmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davbeck/graphile-scheduler/issues"
+    "url": "https://github.com/lukeramsden/graphile-scheduler/issues"
   },
-  "homepage": "https://github.com/davbeck/graphile-scheduler#readme",
+  "homepage": "https://github.com/lukeramsden/graphile-scheduler#readme",
   "dependencies": {
     "@types/debug": "^4.1.2",
     "@types/jest": "^24.0.11",
-    "@types/pg": "^7.4.11",
-    "graphile-worker": "0.5.0",
+    "@types/pg": "^7.14.3",
+    "graphile-worker": "0.8.0",
     "moment": "^2.24.0",
-    "pg": ">=6.5 <8",
+    "pg": ">=6.5 <9",
     "pg-connection-string": "^2.0.0",
     "tslib": "^1.9.3",
     "yargs": "^15.1.0"
